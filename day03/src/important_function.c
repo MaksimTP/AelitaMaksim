@@ -19,16 +19,5 @@ float important_function(float x) {
 }
 
 int main() {
-    float a;
-    char c;
-
-    int n = scanf("%f%c", &a, &c);
-    if (n != 2 || c != '\n') {
-        printf("error\n");
-        return 0;
-    }
-
-    printf("%.1f", important_function(a));
-
     return 0;
 }
